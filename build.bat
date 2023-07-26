@@ -29,7 +29,7 @@ IF "%2"=="RELEASE" (
     SET CFLAGS=-g -Wall -Werror
 )
 SET IFLAGS=-Iinclude -I%LIB%/include
-SET LFLAGS=-lopengl32 -lgdi32
+SET LFLAGS=-lopengl32 -lgdi32 -lm
 
 ECHO Building %PROJECT% %RELEASE%
 
